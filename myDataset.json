@@ -1,0 +1,33 @@
+{
+    "name": "myDataset",
+    "parent": "myGenome",
+    "blocks": [
+        {
+            "name": "myChr-01-90Kmarkers",
+            "scope": "myChr-01",
+            "featureType": "linear",
+            "featureSet": ["90KMarkers", "markers"],
+            "features": [
+                {
+                    "type": "SNP",
+                    "name": "myMarkerA",
+                    "range": [15,15]
+                },
+                {
+                    "type": "SNP",
+                    "name": "myMarkerB",
+                    "range": [35,35]
+                }
+            ]
+        },
+        {
+            "name": "myChr-02-90Kmarkers",
+            "scope": "myChr-02",
+            "featureType": "linear",
+            "featureSet": ["90KMarkers", "markers"],
+            "features": [
+
+            ]
+        }
+    ]
+}
