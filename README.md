@@ -1,2 +1,3 @@
-# dataStructure
-drafting data structure
+# pretzel-data
+
+Drafting data structure for plantinformatics/pretzel.
