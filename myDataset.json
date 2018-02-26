@@ -73,4 +73,22 @@
       ]
     }
   ]
+},
+{
+  "name": "myGenomeAliases",
+  "blocks": [
+    {
+      "scope": [
+        { "dataset": "myGenome", "scope": "1A"},
+        { "dataset": "myGenome", "scope": "1B"}
+      ],
+      "featureType": "alias",
+      "features": [
+        {
+          "name1": "myMarkerA",
+          "name2": "myMarkerC"
+        }
+      ]
+    }
+  ]
 }
