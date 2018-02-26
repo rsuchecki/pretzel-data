@@ -1,33 +1,76 @@
 {
-    "name": "myDataset",
-    "parent": "myGenome",
-    "blocks": [
+  "name": "myGenome",
+  "blocks": [
+    {
+      "scope": "1A",
+      "featureType": "linear",
+      "range": [1,500000000]
+    },
+    {
+      "scope": "1B",
+      "featureType": "linear",
+      "range": [1,450000000]
+    }
+  ]
+},
+{
+  "name": "myMarkers",
+  "parent": "myGenome",
+  "meta": ["90KMarkers", "markers"],
+  "blocks": [
+    {
+      "scope": "1A",
+      "featureType": "linear",
+      "features": [
         {
-            "name": "myChr-01-90Kmarkers",
-            "scope": "myChr-01",
-            "featureType": "linear",
-            "featureSet": ["90KMarkers", "markers"],
-            "features": [
-                {
-                    "type": "SNP",
-                    "name": "myMarkerA",
-                    "range": [15,15]
-                },
-                {
-                    "type": "SNP",
-                    "name": "myMarkerB",
-                    "range": [35,35]
-                }
-            ]
+          "name": "myMarkerA",
+          "range": [15,15]
         },
         {
-            "name": "myChr-02-90Kmarkers",
-            "scope": "myChr-02",
-            "featureType": "linear",
-            "featureSet": ["90KMarkers", "markers"],
-            "features": [
-
-            ]
+          "name": "myMarkerB",
+          "range": [35,35]
         }
-    ]
+      ]
+    },
+    {
+      "scope": "1B",
+      "featureType": "linear",
+      "features": [
+        {
+          "name": "myMarkerC",
+          "range": [400,400]
+        }
+      ]
+    }
+  ]
+},
+{
+  "name": "myMap",
+  "meta": ["90KMarkers"],
+  "blocks": [
+    {
+      "scope": "1A",
+      "featureType": "linear",
+      "features": [
+        {
+          "name": "myMarkerA",
+          "range": [0,0]
+        },
+        {
+          "name": "myMarkerB",
+          "range": [12.3,12.3]
+        }
+      ]
+    },
+    {
+      "scope": "1B",
+      "featureType": "linear",
+      "features": [
+        {
+          "name": "myMarkerC",
+          "range": [3.1,3.1]
+        }
+      ]
+    }
+  ]
 }
