@@ -1,5 +1,6 @@
 {
   "name": "myGenome",
+  "meta": [ "year:2018" ],
   "blocks": [
     {
       "scope": "1A",
@@ -16,8 +17,8 @@
 {
   "name": "myMarkers",
   "parent": "myGenome",
-  "scope": "90k",
-  "meta": ["90kMarkers", "markers"],
+  "namespace": "90k",
+  "tags": ["90kMarkers", "markers"],
   "blocks": [
     {
       "scope": "1A",
@@ -47,8 +48,8 @@
 },
 {
   "name": "myMap",
-  "scope": "90k",
-  "meta": ["90kMarkers"],
+  "namespace": "90k",
+  "tags": ["90kMarkers"],
   "blocks": [
     {
       "scope": "1A",
