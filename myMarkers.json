@@ -1,0 +1,44 @@
+{
+    "name": "myMarkers",
+    "parent": "myGenome",
+    "namespace": "90k",
+    "tags": [
+        "90kMarkers",
+        "markers"
+    ],
+    "blocks": [
+        {
+            "scope": "1A",
+            "featureType": "linear",
+            "features": [
+                {
+                    "name": "myMarkerA",
+                    "range": [
+                        15,
+                        15
+                    ]
+                },
+                {
+                    "name": "myMarkerB",
+                    "range": [
+                        35,
+                        35
+                    ]
+                }
+            ]
+        },
+        {
+            "scope": "1B",
+            "featureType": "linear",
+            "features": [
+                {
+                    "name": "myMarkerC",
+                    "range": [
+                        400,
+                        400
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,128 +1,23 @@
 {
   "name": "myGenome",
-  "meta": [ "year:2018" ],
+  "meta": {
+    "year": "2018"
+  },
   "blocks": [
     {
       "scope": "1A",
       "featureType": "linear",
-      "range": [1,500000000]
-    },
-    {
-      "scope": "1B",
-      "featureType": "linear",
-      "range": [1,450000000]
-    }
-  ]
-},
-{
-  "name": "myAnnotation",
-  "parent": "myGenome",
-  "blocks": [
-    {
-      "scope": "1A",
-      "featureType": "linear",
-      "features": [
-        {
-          "name": "my1AGene1",
-          "range": [3000,5150]
-        },
-        {
-          "name": "my1AGene2",
-          "range": [6580,7650]
-        },
-        {
-          "name": "my1AGene3",
-          "range": [200000,200500]
-        },
-        {
-          "name": "my1AGene4",
-          "range": [500100,502300]
-        }
+      "range": [
+        1,
+        500000000
       ]
     },
     {
       "scope": "1B",
       "featureType": "linear",
-      "features": [
-        {
-          "name": "my1BGene1",
-          "range": [3,515]
-        },
-        {
-          "name": "my1BGene2",
-          "range": [658,765]
-        },
-        {
-          "name": "my1BGene3",
-          "range": [2000,2005]
-        },
-        {
-          "name": "my1BGene4",
-          "range": [400100,402300]
-        }
-      ]
-    }
-  ]
-},
-{
-  "name": "myMarkers",
-  "parent": "myGenome",
-  "namespace": "90k",
-  "tags": ["90kMarkers", "markers"],
-  "blocks": [
-    {
-      "scope": "1A",
-      "featureType": "linear",
-      "features": [
-        {
-          "name": "myMarkerA",
-          "range": [15,15]
-        },
-        {
-          "name": "myMarkerB",
-          "range": [35,35]
-        }
-      ]
-    },
-    {
-      "scope": "1B",
-      "featureType": "linear",
-      "features": [
-        {
-          "name": "myMarkerC",
-          "range": [400,400]
-        }
-      ]
-    }
-  ]
-},
-{
-  "name": "myMap",
-  "namespace": "90k",
-  "tags": ["90kMarkers"],
-  "blocks": [
-    {
-      "scope": "1A",
-      "featureType": "linear",
-      "features": [
-        {
-          "name": "myMarkerA",
-          "range": [0,0]
-        },
-        {
-          "name": "myMarkerB",
-          "range": [12.3,12.3]
-        }
-      ]
-    },
-    {
-      "scope": "1B",
-      "featureType": "linear",
-      "features": [
-        {
-          "name": "myMarkerC",
-          "range": [3.1,3.1]
-        }
+      "range": [
+        1,
+        450000000
       ]
     }
   ]
