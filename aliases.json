@@ -3,92 +3,86 @@
         "namespace1": "90k",
         "string1": "1",
         "namespace2": "90k",
-        "string2": "BobWhite_c10015_641",
-        "similarity": 1
+        "string2": "BobWhite_c10015_641"
     },
     {
         "namespace1": "90k",
         "string1": "IWB1",
         "namespace2": "90k",
-        "string2": "BobWhite_c10015_641",
-        "similarity": 1
+        "string2": "BobWhite_c10015_641"
     },
     {
         "namespace1": "90k",
         "string1": "2",
         "namespace2": "90k",
-        "string2": "BobWhite_c10016_302",
-        "similarity": 1
+        "string2": "BobWhite_c10016_302"
     },
     {
         "namespace1": "90k",
         "string1": "IWB2",
         "namespace2": "90k",
-        "string2": "BobWhite_c10016_302",
-        "similarity": 1
+        "string2": "BobWhite_c10016_302"
     },
     {
         "namespace1": "90k",
         "string1": "3",
         "namespace2": "90k",
-        "string2": "BobWhite_c10016_431",
-        "similarity": 1
+        "string2": "BobWhite_c10016_431"
     },
     {
         "namespace1": "90k",
         "string1": "IWB3",
         "namespace2": "90k",
-        "string2": "BobWhite_c10016_431",
-        "similarity": 1
+        "string2": "BobWhite_c10016_431"
     },
     {
         "namespace1": "90k",
         "string1": "4",
         "namespace2": "90k",
-        "string2": "BobWhite_c10017_644",
-        "similarity": 1
+        "string2": "BobWhite_c10017_644"
     },
     {
         "namespace1": "90k",
         "string1": "IWB4",
         "namespace2": "90k",
-        "string2": "BobWhite_c10017_644",
-        "similarity": 1
+        "string2": "BobWhite_c10017_644"
     },
     {
         "namespace1": "90k",
         "string1": "6",
         "namespace2": "90k",
-        "string2": "BobWhite_c10022_471",
-        "similarity": 1
+        "string2": "BobWhite_c10022_471"
     },
     {
         "namespace1": "90k",
         "string1": "IWB6",
         "namespace2": "90k",
-        "string2": "BobWhite_c10022_471",
-        "similarity": 1
+        "string2": "BobWhite_c10022_471"
     },
     {
         "namespace1": "90k",
         "string1": "myMarkerA",
         "namespace2": "90k",
-        "string2": "myMarkerC",
-        "similarity": 1
+        "string2": "myMarkerC"
     },
     {
         "namespace1": "myGenome:myAnnotation",
         "string1": "my1AGene1",
         "namespace2": "myGenome:myAnnotation",
         "string2": "my1BGene1",
-        "similarity": 0.75
+        "evidence": {
+            "coverage": 0.9,
+            "identity": 0.99
+        }
     },
     {
         "namespace1": "myGenome:myAnnotation",
         "string1": "my1AGene2",
         "namespace2": "myGenome:myAnnotation",
         "string2": "my1BGene3",
-        "similarity": 0.8
+        "evidence": {
+            "coverage": 0.9,
+            "identity": 0.99
+        }
     }
 ]
-
