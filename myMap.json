@@ -6,6 +6,7 @@
     ],
     "blocks": [
         {
+            "name": "1A.1",
             "scope": "1A",
             "featureType": "linear",
             "features": [
@@ -21,6 +22,20 @@
                     "range": [
                         12.3,
                         12.3
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "1A.2",
+            "scope": "1A",
+            "featureType": "linear",
+            "features": [
+                {
+                    "name": "myMarkerC",
+                    "range": [
+                        0,
+                        0
                     ]
                 }
             ]
