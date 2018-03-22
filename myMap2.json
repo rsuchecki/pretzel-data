@@ -1,0 +1,42 @@
+{
+    "name": "myMap2",
+    "namespace": "mySpace",
+    "tags": [
+        "markers"
+    ],
+    "blocks": [
+        {
+            "scope": "1A",
+            "featureType": "linear",
+            "features": [
+                {
+                    "name": "myOtherMarkerA",
+                    "range": [
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "myOtherMarkerB",
+                    "range": [
+                        2.3,
+                        2.3
+                    ]
+                }
+            ]
+        },
+        {
+            "scope": "1B",
+            "featureType": "linear",
+            "features": [
+                {
+                    "name": "myOtherMarkerC",
+                    "range": [
+                        32.1,
+                        32.1
+                    ]
+                }
+            ]
+        }
+    ]
+}
