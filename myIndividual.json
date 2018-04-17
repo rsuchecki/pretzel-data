@@ -1,0 +1,23 @@
+{
+  "name": "myIndividual",
+  "blocks": [
+    {
+      "namespace": "90k",
+      "featureType": "observational",
+      "features": [
+        {
+          "name": "myMarkerA",
+          "value": "C"
+        },
+        {
+          "name": "myMarkerB",
+          "value": "A"
+        },
+        {
+          "name": "myMarkerC",
+          "value": "T"
+        }
+      ]
+    }
+  ]
+}
