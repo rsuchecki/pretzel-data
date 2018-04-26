@@ -1,9 +1,9 @@
 {
   "name": "myIndividual",
+  "type": "observational",
   "blocks": [
     {
       "namespace": "90k",
-      "featureType": "observational",
       "features": [
         {
           "name": "myMarkerA",

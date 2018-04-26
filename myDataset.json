@@ -1,21 +1,20 @@
 {
   "name": "myGenome",
+  "type": "linear",
   "meta": {
     "year": "2018"
   },
   "blocks": [
     {
       "scope": "1A",
-      "featureType": "linear",
-      "range": [
+      "value": [
         1,
         500000000
       ]
     },
     {
       "scope": "1B",
-      "featureType": "linear",
-      "range": [
+      "value": [
         1,
         450000000
       ]
