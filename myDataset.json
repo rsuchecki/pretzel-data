@@ -7,14 +7,14 @@
   "blocks": [
     {
       "scope": "1A",
-      "value": [
+      "range": [
         1,
         500000000
       ]
     },
     {
       "scope": "1B",
-      "value": [
+      "range": [
         1,
         450000000
       ]
