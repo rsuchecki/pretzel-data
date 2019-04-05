@@ -1,24 +1,24 @@
 {
     "name": "myMap2",
-    "namespace": "mySpace",
+    "type": "linear",
     "tags": [
         "markers"
     ],
     "blocks": [
         {
             "scope": "1A",
-            "featureType": "linear",
+            "namespace": "mySpace",
             "features": [
                 {
                     "name": "myOtherMarkerA",
-                    "range": [
+                    "value": [
                         0,
                         0
                     ]
                 },
                 {
                     "name": "myOtherMarkerB",
-                    "range": [
+                    "value": [
                         2.3,
                         2.3
                     ]
@@ -27,11 +27,11 @@
         },
         {
             "scope": "1B",
-            "featureType": "linear",
+            "namespace": "mySpace",
             "features": [
                 {
                     "name": "myOtherMarkerC",
-                    "range": [
+                    "value": [
                         32.1,
                         32.1
                     ]

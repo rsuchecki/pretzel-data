@@ -1,41 +1,41 @@
 {
   "name": "mySample",
+  "type": "observational",
   "blocks": [
     {
       "namespace": "myGenome:myAnnotation",
-      "featureType": "observational",
       "features": [
         {
           "name": "my1AGene1",
-          "value": "0"
+          "value": 0
         },
         {
           "name": "my1AGene2",
-          "value": "232"
+          "value": 232
         },
         {
           "name": "my1AGene3",
-          "value": "4.5"
+          "value": 4.5
         },
         {
           "name": "my1AGene4",
-          "value": "1023"
+          "value": 1023
         },
         {
           "name": "my1BGene1",
-          "value": "0"
+          "value": 0
         },
         {
           "name": "my1BGene2",
-          "value": "0"
+          "value": 0
         },
         {
           "name": "my1BGene3",
-          "value": "29.1"
+          "value": 29.1
         },
         {
           "name": "my1BGene4",
-          "value": "5003.23"
+          "value": 5003.23
         }
       ]
     }

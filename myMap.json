@@ -1,25 +1,25 @@
 {
     "name": "myMap",
-    "namespace": "90k",
+    "type": "linear",
     "tags": [
         "90kMarkers"
     ],
     "blocks": [
         {
             "name": "1A.1",
+            "namespace": "90k",
             "scope": "1A",
-            "featureType": "linear",
             "features": [
                 {
                     "name": "myMarkerA",
-                    "range": [
+                    "value": [
                         0,
                         0
                     ]
                 },
                 {
                     "name": "myMarkerB",
-                    "range": [
+                    "value": [
                         12.3,
                         12.3
                     ]
@@ -28,12 +28,12 @@
         },
         {
             "name": "1A.2",
+            "namespace": "90k",
             "scope": "1A",
-            "featureType": "linear",
             "features": [
                 {
                     "name": "myMarkerC",
-                    "range": [
+                    "value": [
                         0,
                         0
                     ]
@@ -42,11 +42,11 @@
         },
         {
             "scope": "1B",
-            "featureType": "linear",
+            "namespace": "90k",
             "features": [
                 {
                     "name": "myMarkerC",
-                    "range": [
+                    "value": [
                         3.1,
                         3.1
                     ]
