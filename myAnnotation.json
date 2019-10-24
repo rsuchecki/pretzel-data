@@ -1,36 +1,36 @@
 {
     "name": "myAnnotation",
     "parent": "myGenome",
-    "namespace" : "myGenome:myAnnotation",
+    "type": "linear",
     "blocks": [
         {
             "scope": "1A",
-            "featureType": "linear",
+            "namespace" : "myGenome:myAnnotation",
             "features": [
                 {
                     "name": "my1AGene1",
-                    "range": [
+                    "value": [
                         3000,
                         5150
                     ]
                 },
                 {
                     "name": "my1AGene2",
-                    "range": [
+                    "value": [
                         6580,
                         7650
                     ]
                 },
                 {
                     "name": "my1AGene3",
-                    "range": [
+                    "value": [
                         200000,
                         200500
                     ]
                 },
                 {
                     "name": "my1AGene4",
-                    "range": [
+                    "value": [
                         500100,
                         502300
                     ]
@@ -39,32 +39,32 @@
         },
         {
             "scope": "1B",
-            "featureType": "linear",
+            "namespace" : "myGenome:myAnnotation",
             "features": [
                 {
                     "name": "my1BGene1",
-                    "range": [
+                    "value": [
                         3,
                         515
                     ]
                 },
                 {
                     "name": "my1BGene2",
-                    "range": [
+                    "value": [
                         658,
                         765
                     ]
                 },
                 {
                     "name": "my1BGene3",
-                    "range": [
+                    "value": [
                         2000,
                         2005
                     ]
                 },
                 {
                     "name": "my1BGene4",
-                    "range": [
+                    "value": [
                         400100,
                         402300
                     ]

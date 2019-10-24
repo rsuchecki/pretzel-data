@@ -1,25 +1,25 @@
 {
     "name": "myMarkers2",
     "parent": "myGenome",
-    "namespace": "mySpace",
+    "type": "linear",
     "tags": [
         "markers"
     ],
     "blocks": [
         {
             "scope": "1A",
-            "featureType": "linear",
+            "namespace": "mySpace",
             "features": [
                 {
                     "name": "myOtherMarkerA",
-                    "range": [
+                    "value": [
                         10,
                         10
                     ]
                 },
                 {
                     "name": "myOtherMarkerB",
-                    "range": [
+                    "value": [
                         50,
                         50
                     ]
@@ -28,11 +28,11 @@
         },
         {
             "scope": "1B",
-            "featureType": "linear",
+            "namespace": "mySpace",
             "features": [
                 {
                     "name": "myOtherMarkerC",
-                    "range": [
+                    "value": [
                         403,
                         403
                     ]

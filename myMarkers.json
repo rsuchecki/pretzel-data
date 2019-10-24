@@ -1,7 +1,7 @@
 {
     "name": "myMarkers",
     "parent": "myGenome",
-    "namespace": "90k",
+    "type": "linear",
     "tags": [
         "90kMarkers",
         "markers"
@@ -9,18 +9,18 @@
     "blocks": [
         {
             "scope": "1A",
-            "featureType": "linear",
+            "namespace": "90k",
             "features": [
                 {
                     "name": "myMarkerA",
-                    "range": [
+                    "value": [
                         15,
                         15
                     ]
                 },
                 {
                     "name": "myMarkerB",
-                    "range": [
+                    "value": [
                         35,
                         35
                     ]
@@ -29,11 +29,11 @@
         },
         {
             "scope": "1B",
-            "featureType": "linear",
+            "namespace": "90k",
             "features": [
                 {
                     "name": "myMarkerC",
-                    "range": [
+                    "value": [
                         400,
                         400
                     ]
